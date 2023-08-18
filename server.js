@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 
 app.use(bodyParser.json())
 app.use(cors({
-    origin: 'https://localhost:5173'
+    origin: 'http://localhost:5173'
 }))
 
 app.listen(port);
