@@ -34,7 +34,7 @@ app.post('/send-sms', async(req, res) => {
             .create({
                 to: `+${number}`,
                 body: message,
-                from: '+18146373393',
+                from: '+16282370874',
             })
             
         res.json(data);
